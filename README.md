@@ -3,7 +3,8 @@ Implementation of Relief-based feature selection algorithm parallelized with MPI
 
 ## Installation and Usage
 ```
-conda create -n [env-name] python=3.7 conda activate [env-name]
+conda create -n [env-name] python=3.7 
+conda activate [env-name]
 cd [project-folder]
 pip install -r requirements.txt
 ```
@@ -15,7 +16,7 @@ mpiexec -n [number of processes] python run.py −−i [path to input file]
 ```
 
 The source code includes functions to read both text and tsv files, please refer to the testcases to see the expected input format:
-````
+```
 mpiexec -n 4 python run.py −−i testcases/input0.txt 
 mpiexec -n 4 python run.py −−i testcases/input0.tsv
 ```
