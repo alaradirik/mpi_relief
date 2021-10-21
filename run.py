@@ -1,9 +1,4 @@
 """
-Student Name: Alara Dirik
-Student Number: 2020800006
-Compile Status: NA - No need for compilation
-Program Status: Working
-Notes: 
 Python 3.7
 run with mpiexec -n [num process] python run.py --i [path to input file]
 """
@@ -85,7 +80,6 @@ else:
     
     # Slave process received start tag from master
     if tag == 1:
-
         # Run the Relief algorithm on the subset
         result = run_relief(task)
 
