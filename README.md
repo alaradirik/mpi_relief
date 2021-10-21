@@ -21,7 +21,7 @@ mpiexec -n 4 python run.py −−i testcases/input0.txt
 mpiexec -n 4 python run.py −−i testcases/input0.tsv
 ```
 
-An example output with is given below. Slave processes printing their results in no particular order, the master process merges the output of the slave processes and prints the final result:
+An example output with is given below. Slave processes print their results in no particular order, the master process merges the output of the slave processes and prints the final result:
 ```
 SlaveP3: 12
 SlaveP1: 23
